@@ -37,7 +37,10 @@ A conversational AI chatbot built using LangChain, OpenAI, and LangGraph. This p
      OPENAI_API_KEY=your-api-key-here
      ```
 
+
 ## Usage
+
+### Terminal Chatbot
 
 Run the chatbot from the terminal:
 
@@ -48,6 +51,27 @@ python main.py
 - Enter your message when prompted.
 - Type `exit` to end the conversation.
 - The conversation history will be saved to `conversation_history.txt`.
+
+### Streamlit Frontend App
+
+Interact with the chatbot using a web-based interface powered by Streamlit:
+
+```bash
+streamlit run app.py
+```
+
+- Type your message in the input box and click "Send" to chat with the AI.
+- View the full conversation history in the app.
+- Click "Save Conversation" to export the chat to `conversation_history.txt`.
+
+#### Streamlit App Features
+
+- Modern web UI for chatting with the AI
+- Conversation history displayed in real time
+- Save chat history to a text file with one click
+- Powered by LangChain, LangGraph, and OpenAI GPT-4o-mini
+
+---
 
 ## Project Structure
 
