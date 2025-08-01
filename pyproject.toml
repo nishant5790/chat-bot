@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "jupyter>=1.1.1",
+    "jupyter-ai-magics[all]>=2.31.6",
+    "jupyter-ai[all]>=2.31.6",
     "langchain>=0.3.27",
     "langchain-openai>=0.3.28",
     "langgraph>=0.5.4",
