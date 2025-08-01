@@ -147,6 +147,16 @@ def generate_parentheses(n):
     generate('', 0, 0)
     return result
 
+# function to find the fabbonaci serise without using stack or recursion
+# This function returns the first n numbers in the Fibonacci series.
+def fibonacci(n):
+    fib_series = []
+    a, b = 0, 1
+    for _ in range(n):
+        fib_series.append(a)
+        a, b = b, a + b
+    return fib_series
+
 
 # Example usage
 if __name__ == "__main__":
